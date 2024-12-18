@@ -1,0 +1,29 @@
+.color-picker-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.color-picker-group .title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4EA8DE;
+}
+
+.color-picker-group .colors {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px;
+}
+
+.color-picker-group .colors .color-button {
+  width: 52px;
+  height: 52px;
+  border-radius: 1000px;
+  border-width: 2px;
+  border-style: solid;
+}

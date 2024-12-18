@@ -1,0 +1,25 @@
+{
+  "name": "@repo/db-prisma",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/client.ts"
+  },
+  "scripts": {
+    "db:push": "prisma db push",
+    "db:migrate:deploy": "prisma migrate deploy",
+    "db:migrate:dev": "prisma migrate dev",
+    "generate": "prisma generate dev",
+    "prebuild": "npm run generate",
+    "studio": "prisma studio",
+    "format": "prisma format",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.0.1",
+    "mysql2": "^3.11.5"
+  }
+}

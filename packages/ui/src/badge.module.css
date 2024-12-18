@@ -1,0 +1,10 @@
+.badge {
+  height: 20px;
+  background-color: #333333;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  align-items: center;
+  border-radius: 1000px;
+  overflow: hidden;
+}

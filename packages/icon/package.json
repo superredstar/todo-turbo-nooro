@@ -1,0 +1,32 @@
+{
+  "name": "@repo/icon",
+  "version": "1.0.0",
+  "private": true,
+  "exports": {
+    "./ic-pure-check": "./src/ic-pure-check.tsx",
+    "./ic-trash": "./src/ic-trash.tsx",
+    "./ic-check": "./src/ic-check.tsx",
+    "./ic-uncheck": "./src/ic-uncheck.tsx",
+    "./ic-left-arrow": "./src/ic-left-arrow.tsx",
+    "./ic-order": "./src/ic-order.tsx",
+    "./ic-plus-circle": "./src/ic-plus-circle.tsx"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "generate:component": "turbo gen icon",
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@turbo/gen": "^1.12.4",
+    "@types/node": "^20.11.24",
+    "@types/react": "18.3.0",
+    "@types/react-dom": "18.3.1",
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
