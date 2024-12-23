@@ -8,6 +8,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@tsconfig/node-lts": "^22.0.1",
     "autoprefixer": "^10.4.20",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
